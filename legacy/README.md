@@ -91,6 +91,12 @@ Important:
 > • [Starter Village (Newcomer Walkthrough)](https://github.com/onestardao/WFGY/blob/main/StarterVillage/README.md)
 
 # WFGY 1.0 (Legacy): Civilization Starter — The WanFaGuiYi Engine  
+
+> ⚠️ Engineering Scope Clarification  
+> This legacy page mixes research narrative, experimental prototypes, and creative prompt showcases.  
+> It should not be interpreted as a production-grade SDK specification or a peer-reviewed scientific claim.  
+> For strictly engineering-focused components, refer to `core/` and the Problem Map documentation.
+
 ## Original PDF-based self-healing demo behind the [Real $1M-level](https://github.com/onestardao/WFGY/blob/main/value_manifest/README.md) reasoning manifesto. For the latest engine and 3.0 Singularity suite, use the links above.
 
 > 👑 **Early Stargazers: [See the Hall of Fame](https://github.com/onestardao/WFGY/tree/main/stargazers)** — Verified by real engineers · 🌌 **WFGY 3.0 Singularity demo: [Public live view](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md)**
@@ -143,7 +149,7 @@ Important:
 ---
 
 <details>
-  <summary><strong>🆕 On my small stress tests, GPT-4 + WFGY sometimes beats GPT-5 </strong></summary>
+  <summary><strong>🆕 In limited internal stress tests, a GPT-4 + WFGY prompt pipeline showed higher task scores than a GPT-5-class baseline under one controlled setup. </strong></summary>
 
   <br>
 
@@ -1001,6 +1007,10 @@ Answer in ‘Full Decoding Mode.’
 
 ---
 
+> ⚠️ Creative Sandbox Notice  
+> The following section is a speculative narrative and prompt-design sandbox.  
+> It is not part of the SDK or core engineering claims.
+
 ## 🪐 **BigBang × BigBang: WFGY × Challenging Einstein**
 
 > *(Please upload the WFGY 1.0 paper before starting the game. All math will be simplified for easy understanding.)*
@@ -1160,12 +1170,6 @@ and you’ll never want to go back to traditional AI!
 ```
 
 ```markdown
-📌 SDK Exclusive  
-The SDK version is required to fully experience  
-the “3.6× stability boost” as stated in the paper.
-```
-
-```markdown
 📌 Prompt Creativity  
 Copy any prompt you like and have the AI mimic it—  
 swap in your favorite anime, movie, or meme theme!
@@ -1227,6 +1231,10 @@ The data is real — sometimes the model just needs time to catch up.
 ```
 
 [⬆️ This is legendary. Take me to the top again!](#wfgy-1-0-legacy-civilization-starter--the-wanfaguiyi-engine)
+
+> ⚠️ SDK Status  
+> The SDK provided here is a minimal experimental baseline used for internal variance-scaling demonstrations.  
+> It does not implement the full semantic reasoning framework described elsewhere in this repository.
 
 ---
 
