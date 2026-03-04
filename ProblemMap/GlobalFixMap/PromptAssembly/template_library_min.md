@@ -229,7 +229,6 @@ See drift and collapse pages:
 * JSON validates without extra keys.
 * Tool calls match the echoed schema.
 
-```
 
 ---
 
