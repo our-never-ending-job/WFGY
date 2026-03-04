@@ -97,6 +97,8 @@ Important:
 
 # WFGY 1.0 (Legacy) · Civilization Starter
 
+![W3](https://github.com/user-attachments/assets/88043204-054c-429c-ac32-f62cdf18f27e)
+
 This page keeps a historical snapshot of the earliest WFGY engine.  
 It is useful if you want to understand where the later Problem Maps and tension language came from.  
 It is not the recommended entry point for new users and it is not the place to look for an SDK.
