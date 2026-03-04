@@ -1,6 +1,6 @@
 # Code of Conduct
 
-This project welcomes questions, critique, and collaboration. It also requires civility and evidence. The rules below help us keep discussion productive, fair, and reproducible.
+This project welcomes questions, critique, and collaboration. It also requires civility and evidence. The rules below help keep discussion productive, fair, and reproducible.
 
 **Contact for moderation and reports:** hello@onestardao.com
 
@@ -8,11 +8,11 @@ This project welcomes questions, critique, and collaboration. It also requires c
 
 ## Short version
 
-- Be respectful. Argue ideas, not people.  
-- Read before you judge. Engage with the actual files and methods.  
-- Critique with evidence that others can reproduce.  
-- No harassment, brigading, or doxxing.  
-- AI-only hot takes without reading the repo are not acceptable.  
+- Be respectful. Argue ideas, not people.
+- Read before you judge. Engage with the actual files and methods.
+- Critique with evidence that others can verify.
+- No harassment, brigading, or doxxing.
+- Critiques that do not reference the repository content or provide verifiable support may be treated as non actionable.
 - Maintainers may close or lock threads that are not constructive.
 
 ---
@@ -27,59 +27,59 @@ This Code applies to all project spaces. This includes GitHub Issues, Discussion
 
 **Expected behavior**
 
-- Stay on topic. Use specific references to files, commits, or DOIs.
+- Stay on topic. Use specific references to files, commits, releases, or DOIs when relevant.
 - Be accurate and charitable. Summarize what you think the author claims before you disagree.
-- Provide enough detail for others to reproduce a result. Prefer facts over speculation.
+- Provide enough detail for others to reproduce or inspect a result. Prefer facts over speculation.
 - Accept correction gracefully. Credit sources and contributors.
 - Use clear language. English or Chinese are both welcome.
 
 **Unacceptable behavior**
 
-- Personal attacks, slurs, or harassment.  
-- Trolling, sealioning, or derailing threads.  
-- Repeated allegations without verifiable evidence.  
-- Doxxing or attempts to reveal personal identity.  
-- Spam, link bombing, vote brigading, or mass reporting.  
-- **AI-only drive-by criticisms** such as “this repo is all hallucination” that do not engage with the actual content.  
-- Misrepresentation of results or screenshots.
+- Personal attacks, slurs, or harassment.
+- Trolling, sealioning, or derailing threads.
+- Repeated allegations without verifiable evidence.
+- Doxxing or attempts to reveal personal identity.
+- Spam, link bombing, vote brigading, or mass reporting.
+- Dismissive drive by criticisms that do not engage with the repository content or provide verifiable support.
+- Misrepresentation of results, logs, or screenshots.
 
 ---
 
-## Evidence-based critique policy
+## Evidence based critique policy
 
-This repository publishes reproducible artifacts and has received substantial community attention (1000+ stars and many real user reports). We welcome criticism that improves the work. We require that critiques meet a minimal bar so that maintainers and readers can evaluate them quickly.
+This repository aims to publish inspectable and reproducible artifacts. Criticism that improves the work is welcome. To keep review efficient, critiques must meet a minimal bar so that maintainers and readers can evaluate them quickly.
 
 **When you claim an error, please include:**
 
-1. What you tried to reproduce: file path or DOI, commit hash or tag, and the exact prompt or command.  
-2. Your environment: model name or version, OS, Python or tool versions.  
-3. What you expected and what you observed. Include logs or diffs if possible.  
-4. A minimal example that others can run.
+1. What you tried to reproduce: file path or DOI, commit hash or tag, and the exact prompt or command.
+2. Your environment: model name or version, OS, Python or tool versions.
+3. What you expected and what you observed. Include logs or diffs when possible.
+4. A minimal example that others can run or inspect.
 
-Issues or discussions that do not meet this bar may be labeled **non-actionable**. Maintainers may request more detail. If none is provided, the thread can be **closed** to reduce noise. Repeated non-actionable posts can lead to **locks** or **account blocks**.
+Issues or discussions that do not meet this bar may be labeled **non actionable**. Maintainers may request more detail. If none is provided, the thread may be **closed** to reduce noise. Repeated non actionable posts may result in additional moderation actions such as **locks** or **blocks**.
 
 ---
 
 ## Science and skepticism
 
-- Skepticism is healthy. Bad-faith dismissal is not.  
-- “Extraordinary claims require extraordinary evidence” applies both ways. If you claim a failure, bring data that someone else can check.  
+- Skepticism is healthy. Dismissal without engagement or evidence is not constructive.
+- The principle "extraordinary claims require extraordinary evidence" applies to all sides. If you claim a failure, bring data that someone else can check.
 - We track corrections publicly. If an error is confirmed, we will document it and thank the reporter.
 
 ---
 
 ## Moderator guidelines
 
-Maintainers use a progressive ladder. They may skip steps for severe cases.
+Maintainers use a progressive ladder. Steps may be skipped for severe cases.
 
-1. **Nudge:** friendly reminder of this Code with a link.  
-2. **Request revision:** ask for missing evidence or clarity.  
-3. **Move or merge:** consolidate off-topic or duplicate threads into a central discussion.  
-4. **Close:** end non-constructive or non-actionable threads.  
-5. **Lock:** prevent further replies if a thread attracts harassment or repeats.  
+1. **Nudge:** a reminder of this Code with a link.
+2. **Request revision:** ask for missing evidence or clarity.
+3. **Move or merge:** consolidate off topic or duplicate threads into a central discussion.
+4. **Close:** end non constructive or non actionable threads.
+5. **Lock:** prevent further replies if a thread attracts harassment or repeated disruption.
 6. **Block or report:** for harassment, doxxing, or coordinated abuse.
 
-A “Critiques and Questions” mega-thread may be pinned during high traffic. New critique threads can be redirected there.
+A "Critiques and Questions" mega thread may be pinned during high traffic. New critique threads may be redirected there.
 
 ---
 
@@ -87,7 +87,7 @@ A “Critiques and Questions” mega-thread may be pinned during high traffic. N
 
 If you experience or witness behavior that violates this Code:
 
-- Email **hello@onestardao.com** with links, screenshots, and context.  
+- Email **hello@onestardao.com** with links, screenshots, and context.
 - Do not engage in prolonged fights. We will review and respond.
 
 We keep reporter information confidential when legally possible.
@@ -96,9 +96,9 @@ We keep reporter information confidential when legally possible.
 
 ## Maintainer responsibilities
 
-- Apply the rules consistently and document decisions briefly.  
-- Prefer transparency. Close rather than delete. Lock rather than hide.  
-- Provide clear paths to reproduce results and to file actionable reports.  
+- Apply the rules consistently and document decisions briefly.
+- Prefer transparency. Close rather than delete. Lock rather than hide.
+- Provide clear paths to reproduce results and to file actionable reports.
 - Update FAQs when a recurring question appears.
 
 ---
@@ -111,7 +111,7 @@ If your post was closed, locked, or removed and you believe this was a mistake, 
 
 ## A note about platform incidents
 
-Distribution mirrors can fail or be taken down by automated systems. We keep a single source of truth in this repository. External DOIs or mirrors will be linked and versioned when available. If a platform removes a link, we document the change and provide an alternative.
+Distribution mirrors can fail or be removed by automated systems. This repository is the primary reference point for project materials. External DOIs or mirrors will be linked and versioned when available. If a platform removes a link, we will document the change and provide an alternative when possible.
 
 ---
 
