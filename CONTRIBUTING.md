@@ -1,115 +1,66 @@
-# Contributing to **WFGY**
+## Contributing
 
-Thank you for helping push semantic reasoning forward!  
-This guide merges the original workflow with our new Failure‑Trace and Problem‑Page pipelines.
+Thank you for contributing to this repository.
 
----
+This project is maintained with a focus on inspectable work, verifiable references, and clear scope boundaries.  
+To reduce ambiguity and avoid overstated claims, contributions are routed into a small number of reviewable lanes.
 
-## 1 · Reporting Issues
+At the current stage, there are two primary contribution lanes. Most accepted PRs are expected to fall into one of them.
 
-| Step | Detail |
-|------|--------|
-| 1️⃣ Search first | Avoid duplicates—check Issues & Discussions. |
-| 2️⃣ Pick a template | **Bug / Feature** or **💥 Failure Trace**. |
-| 3️⃣ Provide essentials | • Clear description • Steps to reproduce • Environment (Python ≥ 3.10, OS, model, WFGY version). |
-| 4️⃣ Security | Found a vulnerability? Follow `SECURITY.md`; do **not** post details publicly. |
+### Priority lane A: Tension Universe MVP Experiments
 
----
+The highest priority contribution path is expanding and improving the Tension Universe MVP experiment layer.
 
-## 2 · Failure Trace Workflow (New!)
+This lane focuses on adding or improving MVP experiment pages under the `TensionUniverse/Experiments/` collection.  
+An MVP experiment here does not mean a solved claim, a final proof, or a complete benchmark. It means a narrow, inspectable page with explicit assumptions and a reproducible or at least reviewable protocol.
 
-> **Goal:** capture real prompts / responses that still break WFGY and add them to regression tests.
+Typical contributions in this lane include:
 
-1. Select **💥 Failure Trace** template when opening an Issue.  
-2. Paste **5‑20 lines** of prompt‑response log.  
-3. Pick the closest **Problem Category** (RAG, Multi‑Agent, Symbolic, …).  
-4. Optional: add framework info (LangChain, AutoGen, etc.).  
-5. We’ll tag the trace, reproduce it, and add tests / docs.
+- adding a new MVP experiment page for an open Tension Universe problem
+- improving an existing MVP experiment page with clearer structure, tighter scope, or better protocols
+- attaching small supporting artifacts that belong to the MVP page, such as notebooks, Colab links, screenshots, or structured notes
 
----
+Start here:
 
-## 3 · Fork & Local Setup
+- [Tension Universe MVP contribution guide](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/CONTRIBUTING.md)
 
-```bash
-git clone https://github.com/onestardao/WFGY.git
-cd WFGY
+### Priority lane B: Recognition Map updates
 
-python -m venv venv             # Python ≥ 3.10
-source venv/bin/activate        # macOS / Linux
-# .\venv\Scripts\Activate.ps1   # Windows
+The second priority lane is maintaining a verified, public recognition record of where WFGY has been cited, integrated, adapted, or discussed across the ecosystem.
 
-pip install -r requirements.txt
-git checkout -b feature/<slug>
-````
+If you find a public repository, benchmark, article, doc page, course page, or discussion that includes WFGY, you are welcome to help keep this list accurate.
 
----
+You can contribute by:
 
-## 4 · Adding / Updating Code
+- adding a missing entry
+- updating an outdated description
+- attaching a better proof link
+- correcting categorization
+- submitting a PR with a new citation or integration
 
-| Task        | Command                                   |
-| ----------- | ----------------------------------------- |
-| Format code | `black .`  & `isort .`                    |
-| Run tests   | `pytest tests/`                           |
-| Pre‑commit  | `pre-commit run --all-files` (if enabled) |
-| Add dep     | Update `requirements.txt` + note in PR    |
+Forks and PRs are welcome. If your project includes WFGY in any public form, feel free to add it to this recognition list with a short description and a verifiable link.
 
----
+Recognition Map:
 
-## 5 · Adding a **Problem Page** (Map entry)
+- [WFGY Recognition Map](https://github.com/onestardao/WFGY/blob/main/recognition/README.md)
 
-1. Copy `/ProblemMap/_template.md` (or any existing page).
-2. Fill the **eight‑section** structure: Intro → Root Cause → WFGY Fix → Demo → Cheat‑Sheet → Status → Tips → Quick‑Start.
-3. Place under the correct folder, e.g.
+### Other contributions are also welcome
 
-   * `ProblemMap/multi-agent-chaos/new-issue.md`
-4. Add at least **one regression trace** under `/tests/failure-traces/<slug>.txt`.
-5. Update the relevant Specialized Map table (`Multi-Agent_Problems.md`) with the new row.
+In addition to the two priority lanes above, other forms of contributions are welcome, for example:
 
----
+- wording and clarity improvements
+- typo fixes
+- broken link fixes
+- navigation and formatting improvements
+- small documentation refinements that reduce confusion for readers and automated tools
 
-## 6 · Submitting a Pull Request
+If you are unsure which lane your contribution belongs to, open a short issue first and describe the intended change and the target file.
 
-| Item              | Detail                                                                |
-| ----------------- | --------------------------------------------------------------------- |
-| **Title**         | `Add: <feature>` or `Fix: <bug>`                                      |
-| **Description**   | Motivation · summary · test steps · `Closes #<issue>`                 |
-| **Target branch** | `main`                                                                |
-| **Checklist**     | Tests pass · docs updated · minimal commits (squash/rebase as needed) |
+### Review expectations
 
-A **PR template** auto‑loads—fill the checkboxes before requesting review.
+To keep contributions aligned with scientific practice and public auditability:
 
----
-
-## 7 · Documentation & Release Notes
-
-* Update any affected docs (`README`, examples, API) **in the same PR**.
-* Maintainers handle version tags; open an Issue titled `[Release Candidate]` if you think a new release is ready.
-
----
-
-## 8 · Communication Channels
-
-| Channel                | Use                                                                     |
-| ---------------------- | ----------------------------------------------------------------------- |
-| **GitHub Discussions** | Q\&A, Failure‑Trace sharing, design RFCs                                |
-| **Telegram**           | Quick chat with @PSBigBig                                               |
-| **Email**              | [hello@onestardao.com](mailto:hello@onestardao.com) for private matters |
-
-Follow the **Code of Conduct**—be respectful.
-
----
-
-## 9 · Large or Breaking Changes
-
-* Open an **RFC Issue** before coding large refactors.
-* Mark the PR as **Draft / WIP** until consensus is met.
-* Label accordingly (`architecture`, `breaking‑change`).
-
----
-
-## 10 · Acknowledgements
-
-Every PR—docs, code, examples, bug reports—moves WFGY closer to bullet‑proof reasoning.
-Drop a ⭐ if this repo helps you; it fuels the next feature.
-
-**Thank you for contributing!**
+- keep scope narrow and assumptions explicit
+- avoid exaggerated claims, especially for early MVP work
+- prefer verifiable links and reproducible steps over broad statements
+- for recognition entries, include a public proof link whenever possible
