@@ -154,7 +154,7 @@ What it gives you is a disciplined way of:
 - reusing patterns from the 131 S problems as scaffolds  
 - keeping good and bad tension separate so that collapse is visible instead of hidden
 
-If any of this helps you think sharper or run better experiments, a quick ⭐ on the main repo tells labs and maintainers that this should live as shared infra, not as a private toy.
+If this helps you, consider leaving a ⭐ — it helps more developers discover this project. [![GitHub Repo stars](https://img.shields.io/github/stars/onestardao/WFGY?style=social)](https://github.com/onestardao/WFGY)
 
 ---
 
