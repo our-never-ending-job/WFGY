@@ -193,3 +193,142 @@ If your target is already listed, pick another valid problem.
 If your target is not yet built, keep the scope small, make one inspectable MVP page, and open a focused PR.
 
 That is the cleanest way to expand the Tension Universe experiment layer.
+
+---
+
+This board is meant to lower contribution friction.
+If you are unsure what “enough for MVP” means, start here.
+
+## Contributor FAQ
+
+This FAQ is intentionally practical.
+
+It is here to answer scope, merge, and workflow questions for contributors.
+It does not define Tension Universe theory.
+It only defines the cleanest way to contribute to the public MVP experiment layer.
+
+### Q1. Do I need to update every page that mentions completed experiments?
+
+No.
+
+For the MVP contribution path, the minimum required coordination update is this board:
+
+- `TensionUniverse/Contribute/open-experiments.md`
+
+If your experiment is complete, it is enough to reflect that here.
+Other pages such as the experiments index, Event Horizon page, or root-level references can be updated later and should not block a small focused merge.
+
+### Q2. What counts as a valid MVP contribution?
+
+A valid MVP contribution is a small, inspectable slice of a real Tension Universe problem.
+
+The goal is not to solve the full problem.
+The goal is to produce one honest, usable experiment page at the effective layer.
+
+In most cases, the cleanest MVP is:
+
+- one valid TU problem id
+- one focused experiment folder
+- one structured `README.md`
+- one small runnable Colab or notebook, if it directly helps verification
+
+A narrow but working slice is enough.
+
+### Q3. Does the experiment need to cover the full TU problem?
+
+No.
+
+It only needs to cover one clear experimental slice of a valid TU problem.
+
+That slice may be:
+
+- a toy world
+- one observable
+- one comparison
+- one probe
+- one bounded demonstration
+
+If the scope is real, clear, and reproducible, it is valid as an MVP.
+
+### Q4. Is one runnable Colab enough for an MVP?
+
+Yes, in many cases.
+
+If one small Colab can run and the README clearly explains:
+
+- what the experiment is testing
+- what the inputs are
+- what the observable or result means
+- what the current limits are
+
+then that is already a strong MVP contribution.
+
+The standard is “small but real,” not “large and complete.”
+
+### Q5. Can a README-first contribution still be useful?
+
+Yes.
+
+A clear README is always valuable because it defines the experiment shape, scope, and intended method.
+
+However, for a `Completed` entry, at least one runnable or inspectable artifact is strongly preferred.
+That usually means:
+
+- a small Colab
+- a small notebook
+- or a clearly reproducible offline procedure
+
+If the README is good but the runnable piece is not ready yet, the item may be better marked as `In Progress`.
+
+### Q6. Is a TXT plus strong-model workflow acceptable?
+
+Yes.
+
+This project is explicitly designed around TXT-based engine packs and strong LLMs.
+
+An MVP may rely on the official TXT pack plus a lightweight notebook or evaluation scaffold, as long as the page clearly states:
+
+- what is reproducible directly
+- what depends on an external model
+- what is being demonstrated at the effective layer
+
+The workflow should be transparent, narrow, and honest about scope.
+
+### Q7. Should I work on an already completed experiment?
+
+Usually, no.
+
+For public MVP expansion, the first priority is to cover a valid problem that does not yet have a published experiment page.
+
+If an experiment is already completed, do not duplicate it unless you are adding a clearly scoped extension.
+If you do extend an existing item, state that scope explicitly.
+
+### Q8. Should I open an issue first, or can I open a PR directly?
+
+Either is acceptable.
+
+- If the contribution is small, self-contained, and clearly in scope, a focused PR is fine.
+- If the target, scope, or validity is unclear, open a short issue first.
+
+The cleaner the scope, the less process is needed.
+
+### Q9. What should I update after an experiment is completed?
+
+For the MVP merge path, update this board first.
+
+That means:
+
+- add the new completed item here, or
+- move the item into the `Completed` section if this board is tracking it explicitly
+
+This page is the minimum coordination layer.
+Other navigation pages can be synced later.
+
+### Q10. What if I can only complete a very small version?
+
+That is still useful.
+
+A small working fragment is better than a large unfinished draft.
+
+If you can make one claim inspectable, one notebook runnable, or one bounded setup readable, that is already real progress.
+The experiment layer is intentionally built one small page at a time.
