@@ -134,10 +134,6 @@ A verified record of public citations and integrations of WFGY ProblemMap across
 | [Awesome-LLM-based-Evaluators](https://github.com/dependentsign/Awesome-LLM-based-Evaluators) | [![GitHub Repo stars](https://img.shields.io/github/stars/dependentsign/Awesome-LLM-based-Evaluators?style=social)](https://github.com/dependentsign/Awesome-LLM-based-Evaluators) | Lists **WFGY 3.0 · Singularity Demo** and the **WFGY ProblemMap** in its “Robustness and stress-test resources” section as a TXT-based long-horizon tension reasoning benchmark and failure map for RAG and LLM robustness evaluation. |
 
 
-
-
-
-
 ---
 
 ### ⭐ Star-powered Proof
@@ -150,6 +146,28 @@ This section highlights some early and notable “Star Gators” who starred the
 Explore the full list of notable supporters:
 
 👉 [Star Gators · notable stargazers](https://github.com/onestardao/WFGY/blob/main/stargazers/README.md)
+
+
+---
+
+## 4. Community Works (open PRs)
+
+This is a community showcase for projects, demos, websites, tutorials, translations, and integrations built with WFGY ideas.
+Small projects are welcome. There is no star requirement.
+
+Submission requirements:
+1) Public link
+2) One sentence explaining which WFGY part you used
+3) A proof link or a verifiable reference
+4) Language tag (EN / ZH / Bilingual / others)
+
+Disclaimer:
+Entries here are community submissions and do not imply endorsement.
+
+| Project | Type | Language | Link | What it does with WFGY | Proof | Credit |
+| --- | --- | --- | --- | --- | --- | --- |
+| (your project) | website / demo / integration | ZH | (link) | (one sentence) | (proof) | (name) |
+
 
 ---
 
