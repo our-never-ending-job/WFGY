@@ -125,10 +125,10 @@ Choose **Grandma’s Clinic** if you want to understand the bug in plain words.
 > **Goal:** route your bug to the right fix in <60s. Pick your path:
 >
 > ### 1) Get oriented
-> - 🧭 *What is this?* → **Global Fix Map (this page)** — panoramic index of RAG/infra/reasoning fixes.  
-> - 🧱 **Problem Map 1.0** (16 reproducible failure modes) → [open](../README.md)  
-> - 🌲 **Problem Map 2.0 — RAG Architecture & Recovery** → [open](../rag-architecture-and-recovery.md)  
-> - 🧠 **WFGY Core (2.0)** — engine & math → [open](../../core/README.md)
+> - 🧭 *What is this?* → **Global Fix Map (this page)** — panoramic index of RAG / infra / reasoning fixes.  
+> - 🧱 **Problem Map 1.0** (16 reproducible failure modes) → [open](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md)  
+> - 🪪 **Problem Map 2.0** — Global Debug Card (image-as-prompt debug protocol) → [open](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md)  
+> - 🌍 **Problem Map 3.0** — AI Troubleshooting Atlas (expanded failure pattern map) → [open](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md)  
 >
 > ### 2) One-minute quick-start
 > - ⏳ **TXT OS (plain-text OS)** → copy–paste → ask *“which Problem Map number am I hitting?”* → [open](../../OS/README.md) · [txt](../../OS/TXTOS.txt)  
