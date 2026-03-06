@@ -1,7 +1,6 @@
 # 📚 Glossary — Terms, Symbols, and Short Definitions
 
 > **Quick Nav**  
-> [RAG Map 2.0](./rag-architecture-and-recovery.md) ·
 > [Retrieval Playbook](./retrieval-playbook.md) ·
 > [Patterns](./patterns/README.md) ·
 > [Eval](./eval/README.md)
