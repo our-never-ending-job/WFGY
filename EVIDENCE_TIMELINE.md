@@ -4,12 +4,12 @@
 
 This page records how WFGY became real, usable, public, and externally legible over time.
 
-It is not limited to third-party adoption only.  
-It also tracks the major moments when the WFGY line itself became more concrete, more teachable, more reproducible, or more visible to the outside world.
+WFGY did not begin with a large installed base, a built-in distribution channel, or a ready-made institutional wrapper.  
+It was built in public, piece by piece, through theory, application surfaces, diagnostic maps, teaching layers, evaluation artifacts, and eventually public ecosystem proof.
 
 You can read this page as a compact historical route:
 
-**build → structure → teaching → evaluation → public proof**
+**cold start → structure → teaching → evaluation → public proof**
 
 Related pages:
 
@@ -50,21 +50,24 @@ For the full ledger, use the [Recognition Map](./recognition/README.md).
 
 # Timeline
 
-## 2025/06/15 · 🧱 WFGY 1.0 becomes the baseline public reference
+## Cold Start Era
+
+The earliest phase of WFGY was a cold-start build.  
+This period matters because it shows the stack did not begin as a polished ecosystem surface. It began as a public baseline, then slowly gained structure.
+
+### 2025/06/15 · 🧱 WFGY 1.0 becomes the baseline public reference
 
 **Track**  
 Internal milestone
 
 **What became public**  
-[WFGY 1.0](https://github.com/onestardao/WFGY/blob/main/legacy/README.md) established the project home and the earliest baseline reference for the WFGY line.
+[WFGY 1.0](https://github.com/onestardao/WFGY/) established the project home and the earliest baseline reference for the WFGY line.
 
 **Why this matters**  
 This is the starting point of the public WFGY stack.  
 It marks the moment when the project stopped being private intuition and became a public reference surface.
 
----
-
-## 2025/07/02 · 🧩 TXTOS opens the application layer
+### 2025/07/02 · 🧩 TXTOS opens the application layer
 
 **Track**  
 Internal milestone
@@ -76,9 +79,7 @@ Internal milestone
 This widened WFGY from theory into application surfaces.  
 It showed that the project was not only about concepts, but also about structured usage.
 
----
-
-## 2025/07/15 · 🔧 Blah Blah Blah extends the TXTOS stack
+### 2025/07/15 · 🔧 Blah Blah Blah extends the TXTOS stack
 
 **Track**  
 Internal milestone
@@ -91,7 +92,12 @@ This is one of the earlier signs that WFGY was growing as a family of connected 
 
 ---
 
-## 2025/07/28 · 🗺️ Problem Map 1.0 becomes the practical wedge
+## Diagnostic Wedge Era
+
+This is the phase where WFGY became much easier for outside teams to understand.  
+The project gained a practical wedge, especially through structured failure diagnosis and teaching surfaces.
+
+### 2025/07/28 · 🗺️ Problem Map 1.0 becomes the practical wedge
 
 **Track**  
 Internal milestone
@@ -103,9 +109,7 @@ Internal milestone
 This is one of the most important turning points in the whole timeline.  
 It gave WFGY a practical front door that real RAG and agent teams could understand quickly.
 
----
-
-## 2025/07/28 · 🩺 Semantic Clinic expands the teaching layer
+### 2025/07/28 · 🩺 Semantic Clinic expands the teaching layer
 
 **Track**  
 Internal milestone
@@ -116,9 +120,7 @@ Internal milestone
 **Why this matters**  
 It showed that WFGY was not only classifying failures, but also teaching people how to reason about them.
 
----
-
-## 2025/07/30 · 🧠 Semantic Blueprint deepens the theory layer
+### 2025/07/30 · 🧠 Semantic Blueprint deepens the theory layer
 
 **Track**  
 Internal milestone
@@ -129,9 +131,7 @@ Internal milestone
 **Why this matters**  
 This strengthened the internal architecture story behind the public-facing maps and teaching pages.
 
----
-
-## 2025/09/05 · 🛠️ Global Fix Map extends beyond one checklist
+### 2025/09/05 · 🛠️ Global Fix Map extends beyond one checklist
 
 **Track**  
 Internal milestone
@@ -142,9 +142,7 @@ Internal milestone
 **Why this matters**  
 This is where the scope clearly widened from a single 16-problem entry map into a broader systems-facing fix library.
 
----
-
-## 2025/09/14 · 👵 Grandma Clinic turns the map into memory-friendly teaching
+### 2025/09/14 · 👵 Grandma Clinic turns the map into memory-friendly teaching
 
 **Track**  
 Internal milestone
@@ -157,7 +155,12 @@ This made the WFGY diagnostic layer more memorable and easier to teach beyond na
 
 ---
 
-## 2026/01/31 · 🌌 WFGY 3.0 Singularity Demo opens the frontier evaluation layer
+## Expansion Era
+
+This phase matters because WFGY stopped being only a diagnostic and teaching surface.  
+It began to open toward broader evaluation and higher-order reasoning layers.
+
+### 2026/01/31 · 🌌 WFGY 3.0 Singularity Demo opens the frontier evaluation layer
 
 **Track**  
 Internal milestone
@@ -169,81 +172,7 @@ Internal milestone
 This is a major expansion of the WFGY line.  
 It pushed the project from diagnostic and teaching surfaces into a more ambitious evaluation and reasoning arena.
 
----
-
-## 2026/02/17 · 🌍 ToolUniverse shows tool-level public integration
-
-**Track**  
-Public ecosystem milestone
-
-**What became public**  
-ToolUniverse publicly merged a WFGY-related triage surface through [PR #75](https://github.com/mims-harvard/ToolUniverse/pull/75).
-
-**Why this matters**  
-This is stronger than a loose mention.  
-It suggests that WFGY could be wrapped into an actionable tool pathway, not only cited as an idea.
-
----
-
-## 2026/02/20 · 📚 Rankify and Multimodal RAG Survey widen the external signal
-
-**Track**  
-Public ecosystem milestone
-
-**What became public**  
-[Rankify PR #76](https://github.com/DataScienceUIBK/Rankify/pull/76) added WFGY-style structured troubleshooting into docs.  
-[Multimodal RAG Survey PR #4](https://github.com/llm-lab-org/Multimodal-RAG-Survey/pull/4) added WFGY as a robustness-oriented resource.
-
-**Why this matters**  
-This date matters because the signal diversified.  
-WFGY was no longer visible in only one style of external context.  
-It was starting to appear across both practical docs and research-facing material.
-
----
-
-## 2026/02/23 · 🚪 LlamaIndex makes the wedge more mainstream
-
-**Track**  
-Public ecosystem milestone
-
-**What became public**  
-[LlamaIndex PR #20760](https://github.com/run-llama/llama_index/pull/20760) merged a WFGY-style advanced failure checklist into docs.
-
-**Why this matters**  
-This is one of the clearest mainstream ecosystem signals in the timeline.  
-It shows that structured WFGY-style failure mapping is legible inside a major public RAG stack.
-
----
-
-## 2026/02/25 · 🧯 RAGFlow strengthens the operational debugging signal
-
-**Track**  
-Public ecosystem milestone
-
-**What became public**  
-[RAGFlow PR #13204](https://github.com/infiniflow/ragflow/pull/13204) merged a structured RAG failure modes guide adapted from the WFGY Problem Map line.
-
-**Why this matters**  
-This strongly reinforces the practical wedge of WFGY.  
-It shows the map is useful in operational debugging contexts, not only in teaching or theory.
-
----
-
-## 2026/03/01 · 🔍 FlashRAG reinforces cross-stack reuse
-
-**Track**  
-Public ecosystem milestone
-
-**What became public**  
-[FlashRAG PR #224](https://github.com/RUC-NLPIR/FlashRAG/pull/224) merged a public debug checklist and failure-mode-oriented surface.
-
-**Why this matters**  
-By this point, the pattern is harder to dismiss as an isolated one-off.  
-The same wedge is being adapted across multiple public stacks.
-
----
-
-## 2026/03/03 · 🖼️ Problem Map 2.0 Global Debug Card turns the map into image protocol
+### 2026/03/03 · 🖼️ Problem Map 2.0 Global Debug Card turns the map into image protocol
 
 **Track**  
 Internal milestone
@@ -257,7 +186,74 @@ It compressed the WFGY diagnostic line into a faster, more shareable, more reusa
 
 ---
 
-## 2026/03/04 · 🤖 LightAgent extends the signal into multi-agent territory
+## Public Proof Era
+
+This is the phase where outside projects began to make the signal legible in public.  
+It does not mean universal adoption. It does mean the WFGY wedge became hard to ignore.
+
+### 2026/02/17 · 🌍 ToolUniverse shows tool-level public integration
+
+**Track**  
+Public ecosystem milestone
+
+**What became public**  
+ToolUniverse publicly merged a WFGY-related triage surface through [PR #75](https://github.com/mims-harvard/ToolUniverse/pull/75).
+
+**Why this matters**  
+This is stronger than a loose mention.  
+It suggests that WFGY could be wrapped into an actionable tool pathway, not only cited as an idea.
+
+### 2026/02/20 · 📚 Rankify and Multimodal RAG Survey widen the external signal
+
+**Track**  
+Public ecosystem milestone
+
+**What became public**  
+[Rankify PR #76](https://github.com/DataScienceUIBK/Rankify/pull/76) added WFGY-style structured troubleshooting into docs.  
+[Multimodal RAG Survey PR #4](https://github.com/llm-lab-org/Multimodal-RAG-Survey/pull/4) added WFGY as a robustness-oriented resource.
+
+**Why this matters**  
+This date matters because the signal diversified.  
+WFGY was no longer visible in only one style of external context.  
+It was starting to appear across both practical docs and research-facing material.
+
+### 2026/02/23 · 🚪 LlamaIndex makes the wedge more mainstream
+
+**Track**  
+Public ecosystem milestone
+
+**What became public**  
+[LlamaIndex PR #20760](https://github.com/run-llama/llama_index/pull/20760) merged a WFGY-style advanced failure checklist into docs.
+
+**Why this matters**  
+This is one of the clearest mainstream ecosystem signals in the timeline.  
+It shows that structured WFGY-style failure mapping is legible inside a major public RAG stack.
+
+### 2026/02/25 · 🧯 RAGFlow strengthens the operational debugging signal
+
+**Track**  
+Public ecosystem milestone
+
+**What became public**  
+[RAGFlow PR #13204](https://github.com/infiniflow/ragflow/pull/13204) merged a structured RAG failure modes guide adapted from the WFGY Problem Map line.
+
+**Why this matters**  
+This strongly reinforces the practical wedge of WFGY.  
+It shows the map is useful in operational debugging contexts, not only in teaching or theory.
+
+### 2026/03/01 · 🔍 FlashRAG reinforces cross-stack reuse
+
+**Track**  
+Public ecosystem milestone
+
+**What became public**  
+[FlashRAG PR #224](https://github.com/RUC-NLPIR/FlashRAG/pull/224) merged a public debug checklist and failure-mode-oriented surface.
+
+**Why this matters**  
+By this point, the pattern is harder to dismiss as an isolated one-off.  
+The same wedge is being adapted across multiple public stacks.
+
+### 2026/03/04 · 🤖 LightAgent extends the signal into multi-agent territory
 
 **Track**  
 Public ecosystem milestone
@@ -268,9 +264,7 @@ Public ecosystem milestone
 **Why this matters**  
 This matters because it widened the visible wedge beyond classic RAG debugging and into multi-agent coordination and failure diagnosis.
 
----
-
-## 2026/03/08 · 🧭 Public proof becomes a first-class routing layer in WFGY
+### 2026/03/08 · 🧭 Public proof becomes a first-class routing layer in WFGY
 
 **Track**  
 Packaging milestone
@@ -292,64 +286,28 @@ What it does is make the accumulated evidence auditable, legible, and much easie
 
 # What this timeline currently shows
 
-📌 At the current stage, the historical pattern is fairly clear.
+📌 The pattern is not random.
 
-WFGY did not appear all at once as one finished artifact.  
-It grew in layers.
+WFGY first became public as a baseline reference.  
+Then it grew application surfaces.  
+Then it found a practical wedge through the Problem Map line.  
+Then it expanded into teaching systems, broader fix systems, evaluation surfaces, and finally visible public proof across outside ecosystems.
 
-The rough sequence looks like this:
-
-1. **baseline and theory**
-2. **application surfaces**
-3. **diagnostic maps**
-4. **teaching and fix systems**
-5. **frontier evaluation**
-6. **external ecosystem proof**
-7. **public packaging and collaboration routing**
-
-That matters because it shows continuity.
+This matters because it shows continuity under cold-start conditions.
 
 The strongest external wedge today still appears to be the **Problem Map line**, especially the structured debugging and failure-classification layer.  
 That is the part that became easiest for outside projects to understand, adapt, and reuse.
 
-At the same time, the internal timeline shows that WFGY is broader than that wedge alone.  
-The project has also been building theory surfaces, application surfaces, and frontier evaluation surfaces in parallel.
+At the same time, this timeline also shows that WFGY is broader than that wedge alone.  
+The wider stack has been built in parallel, even if public proof is currently strongest on the diagnostic side.
 
 ## Safest reading
 
 The safest disciplined reading today is:
 
 * WFGY has a real historical build-up, not a sudden one-page appearance
+* it was built under cold-start conditions, in public, layer by layer
 * the system became practical through the Problem Map line
 * the strongest public adoption signal still clusters around diagnostic and debugging use
 * the broader WFGY stack is larger than that single wedge, but public proof is currently strongest there
 * the timeline shows continuity, structure, and increasing external legibility, but should not be exaggerated into universal adoption claims
-
----
-
-# Maintenance rules
-
-🧾 When updating this page:
-
-1. Keep the timeline chronological.
-2. Prefer dates when something became publicly visible in stable form.
-3. Separate internal milestones from external proof in wording, even if they share the same page.
-4. Do not retroactively inflate old events into stronger claims.
-5. If a milestone is important but weak, move it to the [Recognition Map](./recognition/README.md) instead.
-6. If an event belongs mainly to explanation rather than chronology, keep it in [CASE_EVIDENCE](./CASE_EVIDENCE.md).
-
----
-
-# Related pages
-
-* [ADOPTERS](./ADOPTERS.md)
-* [CASE_EVIDENCE](./CASE_EVIDENCE.md)
-* [Recognition Map](./recognition/README.md)
-* [Work with WFGY](./WORK_WITH_WFGY.md)
-* [Problem Map 1.0](./ProblemMap/README.md)
-* [Problem Map 2.0 Global Debug Card](https://github.com/onestardao/WFGY/releases/tag/WFGY-Global-Debug-Card)
-
----
-
-Last updated: 2026/03/08  
-Maintained manually.
