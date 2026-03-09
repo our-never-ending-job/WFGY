@@ -326,9 +326,6 @@ The demo menu will guide you through three sample missions, then let you explore
 
 ---
 
-
----
-
 <details>
 <summary><strong> What can I ask with this engine? </strong></summary>
 
