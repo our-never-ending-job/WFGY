@@ -1,0 +1,106 @@
+name: Recognition update
+description: Submit a public proof, integration, citation, mention, or documentation signal that may belong in the WFGY evidence layer.
+title: "[Recognition] "
+labels:
+  - recognition
+  - proof
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the WFGY public evidence layer.
+
+        Use this form for:
+        - public integrations
+        - citations
+        - public mentions
+        - docs references
+        - candidate additions for Recognition Map, Adopters, Case Evidence, or Evidence Timeline
+
+        Please share stable public proof where possible.
+
+  - type: dropdown
+    id: target_surface
+    attributes:
+      label: Target surface
+      description: Where do you think this update most likely belongs
+      options:
+        - Recognition Map
+        - Adopters
+        - Case Evidence
+        - Evidence Timeline
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: signal_type
+    attributes:
+      label: Signal type
+      description: What kind of public signal is this
+      options:
+        - Integration
+        - Citation
+        - Mention
+        - Documentation reference
+        - Release or milestone
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: project_name
+    attributes:
+      label: Project or source name
+      description: Name of the repo, org, paper, article, survey, or public source
+      placeholder: e.g. LlamaIndex, RAGFlow, ToolUniverse
+    validations:
+      required: true
+
+  - type: input
+    id: proof_link
+    attributes:
+      label: Public proof link
+      description: Stable public link to the relevant PR, issue, doc page, article, release, or other source
+      placeholder: https://github.com/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened
+      description: Briefly describe what became public and why it matters
+      placeholder: A short explanation of the public proof and why it may matter for WFGY
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_reading
+    attributes:
+      label: Suggested reading
+      description: How should this be read conservatively
+      placeholder: e.g. docs mention only, merged integration, research-facing citation, packaging milestone
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggested_location
+    attributes:
+      label: Suggested placement
+      description: If you have a recommendation, say where this should go
+      placeholder: e.g. Recognition Map only, Adopters summary, Case Evidence, Evidence Timeline
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I included a public link that other people can verify
+          required: true
+        - label: I am not claiming paid adoption unless there is explicit public proof
+          required: true
+        - label: I understand this may be moved to a different evidence page after review
+          required: true
