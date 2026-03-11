@@ -117,7 +117,6 @@ Important:
 >
 > I am preparing a set of internal benchmarks to compare WFGY-style pipelines with future GPT-5-class models.  
 > These will be research-style experiments, not official provider tests, and the design may evolve over time.  
-> If you are curious, you can follow the work in progress here: [benchmark notes and scripts](https://github.com/onestardao/WFGY/tree/main/benchmarks/benchmark-vs-gpt5).
 
 
 </details>
